@@ -30,4 +30,4 @@ def welcome():
 if __name__ == '__main__':
     # Host '0.0.0.0' permite acesso externo ao container
     # Debug True ativa o modo de desenvolvimento
-    app.run(host='0.0.0.0', port=5000, debug=True)
+    app.run(host='0.0.0.0', port=5001, debug=True, threaded=True, use_reloader=True)
