@@ -10,8 +10,8 @@ COPY . /app
 # Instala as dependências
 RUN pip install flask
 
-# Expõe a porta 5001 que é usada pelo Flask
-EXPOSE 5001
+# Expõe a porta 5003 que é usada pelo Flask
+EXPOSE 5003
 
 # Comando para executar a aplicação
 CMD ["python", "app.py"]
